@@ -1,72 +1,334 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8" >
-  <title>Joseph Grossi</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Joseph Grossi | Computer Science</title>
+
+  <!--========================= Bootstrap ========================= -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+  >
+
+  <!--========================= CSS ========================= -->
+  <link rel="stylesheet" href="style.css">
+
 </head>
+
+
 <body>
-  <!-- This is a comment -->
-  <h1> Joseph Grossi </h1>
-  <p>Contact: grossijosseph@yahoo.com</p>
-  
-  <p>About Me:</p>
-  <p>Hi there! My name is Joseph Grossi and I am a Computer Science Major who has grown to havve interest in cloud technologies. Before I explored my CS interest, I obtained a bachelors in Communications and Media Studies from BSU, now I'm back and eager to learn more than ever! Outside of computers science, some of my passions are video games, basketball and LEGO! Below are some of the things I've worked on! </p>
-  <h1>Projects:</h1>
- </ul>
-    <li>Hydroficient Cyber Defense Externship
-    <ul>
-      <li>Built and secured an MQTT-based IoT pipeline using Python, TLS encryption, and device certificates to simulate and protect real-time water monitoring systems.</li>
-      <li>Conducted security testing, including replay attack simulations and TLS performance benchmarking, identifying vulnerabilities and tuning defenses.</li>
-      <li>Developed a real-time security dashboard using Streamlit to monitor pipeline health, detect threats, and track system status.</li>
-    </ul>
-  </li>
 
-<li>NY Racing Data Analytics Externship
-    <ul>
-      <li>Analyzed publicly available NASCAR race data and sponsorship exposure metrics using Python, web scraping, and API integrations to estimate visibility ROI across a full Cup Series season.</li>
-      <li>Built a weighted scoring model combining race performance, social media engagement, and media mentions to rank sponsorship opportunities by exposure efficiency.</li>
-      <li>Delivered a data-driven sponsorship strategy recommendation report with publication-quality 
-visualizations, identifying the highest-value sponsorship targets for NY Racing.</li>
-    </ul>
-  </li>
+  <!--========================= NAVBAR =========================-->
 
-<li>Breaking Games Database Externship
-    <ul>
-      <li>Designed and built an analytics database in SQLite, unifying six disconnected e-commerce data sources into one queryable system (with Claude as an AI co-pilot), and engineering cleaned views that filtered bot traffic and bad data out of every downstream query.</li>
-      <li>Built marketing channel attribution across 400+ referral sources to connect ad spend to revenue, then turned it into a clear recommendation for where the next quarters ad budget should go.</li>
-      <li>Built an HTML + Chart.js dashboard and represented a Holiday Game Plan – , what to reorder, where to spend, what to fix.</li>
-    </ul>
-  </li>
+  <nav class="navbar navbar-expand-lg">
 
-<li>NBA Scoreboard (Check it out here!!!: https://nba-scoreboard.streamlit.app/)
-    <ul>
-      <li>Built a real time NBA scoreboard optimized for wide-screen or LED displays</li>
-      <li>Fetches live NBA scores and team logos via the ESPN API</li>
-      <li>Highlights the leading team in green for easy visual recognition</li>
-      <li>Auto refreshes every 30 seconds for real time updates</li>
-      <li>Designed for hardware deployment, can currently run on Raspberry Pi or mini-PC and display full screen on monitors or LED boards.</li>
-      <li>Implemented a responsive layout with horizontal score alignment and centered team logos</li>
-      <li>Developed as a passion project to combine software, APIs and hardware visualization</li>
-    </ul>
-  </li>
+    <div class="container">
 
-<li>Java Swing Calculator
-    <ul>
-      <li>Developed a modular desktop calculator with clear separation between UI and logic.</li>
-      <li>Implemented custom ActionListeners to manage arithmetic operations and dynamic interface updates.</li>
-      <li>Applied object-oriented design principles to maintain state and ensure scalable, maintainable code.</li>
-    </ul>
-  </li>
+      <a class="navbar-brand" href="index.html">
+        Joseph Grossi
+      </a>
 
-<h1>Certifications:</h1>
-<li>AWS Cloud Pracitioner (in progress)
-    <ul>
-      <li>Currently studying and preparing to take the exam</li>
-    </ul>
-  </li>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
 
-  
-  </ul>
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">
+              Home
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="project.html">
+              Projects
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.hmtl#about">
+              About
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#contact">
+              Contact
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+
+  <!--========================= HERO ========================= -->
+
+  <header class="home-hero">
+
+    <div class="container text-center">
+
+    
+      <h1>
+        Joseph Grossi
+      </h1>
+
+      <h2>
+        Cloud Engineering • Cybersecurity • Data Systems
+      </h2>
+
+      <p class="hero-description">
+        Computer Science student at Bridgewater State University
+        focused on building practical software, cloud, security,
+        and data-driven systems.
+      </p>
+
+
+      <div class="hero-buttons">
+
+        <a href="project.html" class="btn btn-primary">
+          View Projects
+        </a>
+
+        <a
+          href="#contact"
+          class="btn btn-outline-info"
+        >
+          Contact Me
+        </a>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!--========================= SYSTEM STATUS ========================= -->
+
+  <div class="system-status">
+
+    <span class="status-online">
+      ● SYSTEM ONLINE
+    </span>
+
+    <span>
+      BSU • COMPUTER SCIENCE
+    </span>
+
+    <span>
+      6 PROJECTS
+    </span>
+
+  </div>
+
+
+  <!--========================= ABOUT =========================-->
+
+  <section class="home-section" id="about">
+
+    <div class="container">
+
+      <div class="section-heading">
+
+        <p class="section-label">
+          ABOUT
+        </p>
+
+        <h2>
+          Exploring software, cloud engineering, cybersecurity, and data systems.
+        </h2>
+
+      </div>
+
+
+      <p class="home-text">
+
+        I'm a Computer Science student at Bridgewater State University
+        with a focus on cloud engineering, cybersecurity, and data systems.
+        Before studying computer science, I earned a bachelor's degree in
+        Communication and Media Studies, graduating summa cum laude. My background strengthens my ability to
+        communicate technical ideas, analyze information, and work with
+        different audiences.
+
+      </p>
+
+
+      <p class="home-text">
+
+        I'm especially interested in how software, cloud infrastructure,
+        security, and data systems work together to solve real business problems.
+        My relevant experience includes IoT security, data analytics, APIs,
+        desktop applications, and embedded systems.
+
+      </p>
+
+    </div>
+
+  </section>
+
+
+
+<!--========================= LINKS =========================-->
+
+<section class="links-section">
+
+  <div class="container">
+
+    <div class="section-heading text-center">
+
+      <p class="section-label">
+        LINKS
+      </p>
+
+    </div>
+
+
+    <div class="row g-4">
+
+
+      <!-- ========================= GITHUB ========================= -->
+
+      <div class="col-md-4">
+
+        <a
+          href="https://github.com/JosephGrossi"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="link-card"
+        >
+
+          <div class="link-icon">
+            💻
+          </div>
+
+          <h3>
+            GitHub
+          </h3>
+
+          <p>
+            View my code, projects, and development work.
+          </p>
+
+        </a>
+
+      </div>
+
+
+      <!--========================= LINKEDIN =========================-->
+
+      <div class="col-md-4">
+
+        <a
+          href="https://www.linkedin.com/in/joseph-grossi-5b8344317/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="link-card"
+        >
+
+          <div class="link-icon">
+            🔗
+          </div>
+
+          <h3>
+            LinkedIn
+          </h3>
+
+          <p>
+            Connect with me and view my professional experience.
+          </p>
+
+        </a>
+
+      </div>
+
+
+      <!--========================= RESUME =========================-->
+
+      <div class="col-md-4">
+
+        <a
+  href="Joseph Grossi Updated Résumé 2026.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="link-card"
+>>
+
+          <div class="link-icon">
+            📄
+          </div>
+
+          <h3>
+            Resume
+          </h3>
+
+          <p>
+            View my education, skills, experience, and projects.
+          </p>
+
+        </a>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+  <!--========================= CONTACT =========================-->
+
+  <section class="home-contact" id="contact">
+
+    <div class="container text-center">
+
+      <p class="section-label">
+        CONTACT
+      </p>
+
+
+      <a
+        href="mailto:grossijosseph@yahoo.com"
+        class="contact-email"
+      >
+        grossijosseph@yahoo.com
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!--========================= BOOTSTRAP JS =========================-->
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+  </script>
+
 </body>
+
 </html>
+
